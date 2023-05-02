@@ -66,11 +66,6 @@ From PortfolioProject.dbo.NashvilleHousing
 --order by ParcelID
 
 
-
-
-
-
-
 SELECT
 
 
@@ -80,22 +75,7 @@ SUBSTRING(PropertyAddress, 1, CHARINDEX(',', PropertyAddress) -1 ) as Address
 , SUBSTRING(PropertyAddress, CHARINDEX(',', PropertyAddress) + 1 , LEN(PropertyAddress)) as Address
 
 
-
-
-
-
-
 From PortfolioProject.dbo.NashvilleHousing
-
-
-
-
-
-
-
-
-
-
 
 
 ALTER TABLE NashvilleHousing
@@ -109,11 +89,6 @@ SET PropertySplitAddress = SUBSTRING(PropertyAddress, 1, CHARINDEX(',', Property
 ALTER TABLE NashvilleHousing
 
 Add PropertySplitCity Nvarchar(255);
-
-
-
-
-
 
 
 Update NashvilleHousing
@@ -199,17 +174,6 @@ Select SoldAsVacant
 
 From PortfolioProject.dbo.NashvilleHousing
 
-
-
-
-
-
-
-
-
-
-
-
 Update NashvilleHousing
 
 
@@ -257,10 +221,6 @@ Select *,
 
 
 
-
-
-
-
 From PortfolioProject.dbo.NashvilleHousing
 
 
@@ -272,10 +232,7 @@ From PortfolioProject.dbo.NashvilleHousing
 
 Select *
 
-
 From RowNumCTE
-
-
 Where row_num > 1
 
 
@@ -284,78 +241,13 @@ Select *
 
 From PortfolioProject.dbo.NashvilleHousing
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---------------------------------------------------------------------------------------------------------
-
-
-
-
-
-
-
 -- Delete Unused Columns
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Select *
 
-
 From PortfolioProject.dbo.NashvilleHousing
-
-
-
-
-
-
-
-
-
-
-
 
 ALTER TABLE PortfolioProject.dbo.NashvilleHousing
 
-
 DROP COLUMN OwnerAddress, TaxDistrict, PropertyAddress, SaleDate
-
-
-
-
-
-
-
-
