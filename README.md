@@ -13,9 +13,7 @@ Welcome to the BuildMart Business Analytics Dashboard project! This project was 
 5. [Dashboard](#dashboard)
 6. [Insights and Recommendations](#insights-and-recommendations)
 7. [Technologies Used](#technologies-used)
-8. [Setup Instructions](#setup-instructions)
-9. [Contributing](#contributing)
-10. [License](#license)
+
 
 ## Introduction
 
@@ -61,16 +59,14 @@ The BI dashboard includes several key visualizations:
 
 ### Dashboard Screenshots
 
-Here are some screenshots of the dashboard:
+Here are a screenshot of the dashboard:
 
-![Revenue Generated](dashboard/revenue_generated.png)
-![Total Profit](dashboard/total_profit.png)
-![Average Delivery Days](dashboard/average_delivery_days.png)
-![Total Orders](dashboard/total_orders.png)
+![Dashboard](Builmart report.png)
+
 
 ### Download the Dashboard
 
-You can download the Power BI dashboard file [here](dashboard/BuildMart_Dashboard.pbix).
+You can download the Power BI dashboard file [here](Builmart Dashboard report.pbix).
 
 ## Insights and Recommendations
 
@@ -91,10 +87,4 @@ Recommendations include:
 - **Excel**: For data storage, processing, and preliminary analysis.
 - **Power BI**: For creating interactive dashboards and data visualization.
 
-## Setup Instructions
 
-To set up this project locally:
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/BuildMart-Analytics-Dashboard.git
